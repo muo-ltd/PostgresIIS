@@ -30,7 +30,7 @@ for the postgres user is Password1.
 You can copy your IIS logs into the directory without any changes. The docker file contains the following
 commands:
 1. Grep is used to remove the header from the file
-    ```bash
+    ```
     grep "^[^#]" input.log > inputwithoutcomments.log
     ```
 2. Sed is used to replace any \ in the file with /. This is because the Postgres COPY command will 
