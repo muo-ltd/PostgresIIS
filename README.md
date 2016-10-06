@@ -47,3 +47,6 @@ by your instance of IIS. The copy command then executes and loads the data in. I
 this may take a minute or so. I have tested with multiple GB files and they load correctly. I would 
 suggest checking your file beforehand to see how many lines it has in it (**wc -l <filename>** works reasonably well).
 
+
+
+
