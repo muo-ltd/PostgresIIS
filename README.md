@@ -19,9 +19,9 @@ then
 docker-compose up -d 
 ```
 
-An instance of Postgres will then be running on docker with port 5432 mapped to the host.
+An instance of Postgres will then be running on docker with port ** 5432 ** mapped to the host.
 You can then connect to it using PgAdmin or other tools to query the data. The password 
-for the postgres user is Password1. 
+for the postgres user is ** Password1 ** (this can be changed in the docker file). 
 
 ## What it does
 
